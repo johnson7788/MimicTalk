@@ -4,7 +4,7 @@
 # It is authored by ZhenhuiYe (zhenhuiye@zju.edu.cn), free to contact him for any suggestion on improvement!
 
 from numpy.core.numeric import require
-from numpy.lib.function_base import quantile
+from numpy import quantile
 import torch
 import torch.nn.functional as F
 import copy
